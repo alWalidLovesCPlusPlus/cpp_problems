@@ -3,17 +3,17 @@
 using namespace std;
 
 void insertSort(vector<int> &array){
-    int stored;
-    for(int index=1;index<array.size();index++){
-        stored = array[index];
-        int reserved_index = index;
-        while(reserved_index>0 && array[index-1]>stored){
-            array[reserved_index] = array[reserved_index-1];
-            reserved_index--;
+    for(int index=1; index<array.size(); index++){
+        int saved = array[index]; // small
+        int second_index = index - 1;
+        while(second_index >= 0 && array[second_index] > saved){
+            array[second_index + 1] = array[second_index]; 
+            second_index--;
         }
-        array[reserved_index] = stored;
+        array[second_index + 1] = saved;
     }
 }
+
 
 int main(){
     int length;
