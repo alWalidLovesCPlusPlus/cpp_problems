@@ -1,0 +1,25 @@
+1. => 1 + 2 + 3 + ... + n(given)
+        (a) => 1^2 + 2^2 + 3^2 + ... + n^2(given)
+        (b) => 1^1 + 2^2 + 3^3 + ... + n^n(given)
+        (c) => 1 + (2+3) + (4+5+6) + ... + n(given)
+        (d) => 1 - 2 + 3 - 4 + 5 ... nth(given)
+
+        (e) => 1 + (2+3*4) + (5+6*7+8*9*10) + ... + nth term
+        (f) => 1*n + 2*(n-1) + ... + n*1
+2. pyramids with spaces, stars and numbers : 
+        (a) => half-left triangle pyramid
+        (b) => half-right triangle pyramid
+        (c) => half-left-up/down triangle pyramid
+        (d) => half-right-up/down triangle pyramid
+        (e) => rectangular patter
+        (f) => hollow pattern
+        (g) => full up pyramid
+        (h) => full down pyramid
+        (i) => diamond shape
+3. given a number, tell is it prime or not
+4. count n!
+5. n and r is given print "nCr"
+6. you are given a number print in binary
+7. given a binary convert it to number
+
+7. x and n is given count 1- ( x^2/2! ) + ( x^4/4! ) +... nth

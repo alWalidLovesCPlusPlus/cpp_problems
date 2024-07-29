@@ -1,0 +1,8 @@
+1. => you are given a number, tell wheather it is even or odd
+2. => print wheather a given year is leap year or not (400 || 100!= && 4)
+3. => print nth palindrome number
+4. => tell the biggest number between two
+5. => given three numbers sort them in asending order
+6. => given a coordinate, tell in which quadrant it is present
+
+7. => 'n' is given you have to print (1*n + 2*(n-1) + ... + n*1);

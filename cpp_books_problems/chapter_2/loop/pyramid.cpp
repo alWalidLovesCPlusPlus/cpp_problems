@@ -64,15 +64,15 @@ void starDiamond( int rows){
 
         //space
         for(int space=1;space<=(rows-row);space++){
-            cout<<". ";
+            cout<<" ";
         }
         //star
         for(int star=1;star<=((2*row)-1);star++){
-            cout<<"* ";
+            cout<<"*";
         }
         //space
         for(int space=1;space<=(rows-row);space++){
-            cout<<". ";
+            cout<<" ";
         }
     cout<<endl;
     }
@@ -80,15 +80,15 @@ void starDiamond( int rows){
     for(int row=1;row<=(((rows*2)-1) -(rows));row++){
         //space
         for (int space = 1; space <= row; space++){
-            cout<<". ";
+            cout<<" ";
         }
         //star
         for (int star = 1; star <(((rows-row)*2)+1)-1; star++){
-            cout<<"* ";
+            cout<<"*";
         }
         //space
         for (int space = 1; space <= row; space++){
-            cout<<". ";
+            cout<<" ";
         }
         cout<<endl;
     }

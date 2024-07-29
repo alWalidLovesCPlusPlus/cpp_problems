@@ -6,7 +6,7 @@ void selectionSort(vector<int> &array){
     for(int index=0;index<array.size();index++){
         int small_index = index;
         for(int dex=index+1;dex<array.size();dex++){
-            if(small_index>array[dex]){
+            if(array[small_index]>array[dex]){
                 small_index = dex;
             }
         }   

@@ -1,0 +1,10 @@
+1. given sorted integers an array. find the first and last 
+   index of the given elem 'x' in that array. if not found
+   return -1,-1
+   example : {1,2,2,3,4} where x = 2;
+   ans : first : 1, second : 2
+2. a rotated sorted array is a sorted array on which rotation
+   operation has been performed some number of times. given a
+   rotated sorted array, find the index of the minimum element 
+   in the array. follow 0-based-indexing ( all the elements 
+   eill be unique )

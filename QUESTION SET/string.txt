@@ -1,0 +1,15 @@
+1. => you are given a lowercase alphabet print it's uppercase
+2. => you are given a uppercase alphabet print it's lowercase
+3. => given two string tell which will come first in dictonary ( lexicographical order )
+4. => add two string with sapce at between
+5. => print the length of a string (using library function and without it )
+6. => given a sentence print each word of it
+7. => given a string print the numbers of lowercase and uppercase digits
+8. => given two string str1 and str2, you have to tell wheather str2 is fully present in str1 also print how many times str2 is present in str1 
+9. => I will give a date formate to you '20/1/2024'. you have to differenciate all the date, month and year to int variables
+
+10.=> given two string str1 and str2, you have to tell wheather str2 is subsequence to str1. it means if i remove something from str1 and it becomes str2 then str1 is a subsequence to str2
+example : str1 : bangladesh
+          str2 : desh
+          removed (str1) : desh
+          "str1 is a subsequence to str2"

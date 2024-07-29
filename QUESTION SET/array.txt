@@ -1,0 +1,53 @@
+1. => sort an array consisting of number and can be string ( bubble , insertion, selection, merge )
+2. => given an array consisting of only 0 and 1. you have to tell how many 1 are presented the most sequentally
+3. => given an array of numbers, 'i' and 'j' are also given, print the sum 'i' to 'j';
+4. target sum : 
+        (a)=> find the total numbers of pairs in the
+        array whose sum is equal to 'x'(given)
+        (b)=> find the total numbers of triplets in the
+        array whose sum is equal to 'x'(given)
+        (c)=> finding a unique number in an array
+        (d)=> find the second largest value in an array
+        (e)=> rotate the array by 'x' steps where 'x'
+        is positive and (k>n)
+        (f)=> solve the 'e number question' with vector
+5. two pointers : 
+        (a)=> sort an array consisting of only 0 and 1
+        (b)=> given an array of int 'a' move all the 
+        even int at the starting of the array followed
+        by all odd integers. The relative order of odd
+        or even int doesn't matter.
+        (c)=> given an integer array 'a' sorted in asending order,
+        return an array of the squres of each number sorted in 
+        asending order (+ and -)
+6. prefix sum : 
+        (a) => given an array, return the prefix sum ( without creating a nre array )
+        (b) => check if we can partition the array into two sub 
+        arrays with equal sum
+        (c) => 'n' size array. answer 'q' queries where you need to 
+        print the sum of values in a given range of indices from 'l' to 'r'
+7. Array One Shot : 
+         (a) => given two vectors, merge them
+         (b) => given an sorted array find is there is any pair
+         whose sum is exactly equal to 'x'(given)
+         (c) => given an sorted array find is there is any pair
+         whose absolute difference is exactly equal to 'x'(given)
+         (d) => given a sorted vector, find the number of 
+         unique pairs and their absolute sum as 'x' 
+         and how many pairs
+8. 2D array : 
+         (a) => pascal triangle : (i) nth elem
+                                  (ii) nth row
+                                  (iii) print nth rows
+         (b) => given a sorted 2d array tell which row has the
+         maximum '1'. consisting of only 0 and 1
+9. given two array make 'Union Set' 
+10. sorting algorithm questions : 
+         (a) => given an array consisting of 0 and other numbers
+         move all the 0 to the begining without breaking relative 
+         order
+         (b) => sort a string-array 'with fruit names'
+         (c) => write a code to find the kth smallest element in an
+         array
+         (d) => sort an array consisting of only 0,1,2
+         (e) => given 2sorted array merge them in a sorted manner
