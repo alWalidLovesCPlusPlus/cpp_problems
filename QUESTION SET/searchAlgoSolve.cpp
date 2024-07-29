@@ -38,13 +38,19 @@ void binarySearchOccIndex(vector<int> array, int low, int high, int number) {
     cout << second << endl;
 }
 
+int binarySearchFindMiniIndexElemRotatedArr(vector<int> array,int low,int high){
+    
+}
+
 int main() {
     int number = 5;
     vector<int> array(5);
-    array[0] = 1;
-    array[1] = 5;
-    array[2] = 2;
+    array[0] = 3;
+    array[1] = 4;
+    array[2] = 5;
     array[3] = 1;
-    array[4] = 5;
+    array[4] = 2;
+    int mini_number = binarySearchFindMiniIndexElemRotatedArr(array,0,array.size()-1);
+    cout<<mini_number;
     return 0;
 }
