@@ -1,7 +1,7 @@
-// constructor is devided in 3 tyeps :
-    // (1) => default
-    // (2) => parameter
-    // (3) => copy
+// to delete we use this
+//cannt pass parameter
+//name ~(class_name)
+//it works only on pointer variable
 #include <iostream>
 using namespace std;
 
@@ -28,6 +28,11 @@ class Fruits{
         name = object.name;
         color = object.color;
     }
+    
+    //destructor
+    ~Fruits(){
+        cout<<"Destructor is called";
+    }
 
 };
 
@@ -45,6 +50,8 @@ int main(){
     cout<<"Apple Details: "<<endl;
     cout<<"Name: "<<apple->name<<endl;
     cout<<"Color: "<<apple->color<<endl;
+    delete apple;
+    cout<<endl;
 
     cout<<endl;
     
@@ -62,6 +69,8 @@ int main(){
     cout<<"Random Details: "<<endl;
     cout<<"Name: "<<random->name<<endl;
     cout<<"Color: "<<random->color<<endl;
+
+    //after the full code the destructor will run manually
 
     return 0;
 }
