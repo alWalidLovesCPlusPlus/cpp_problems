@@ -1,0 +1,7 @@
+1. given a head of an linked list, delete all the alternative element from the linked list 
+   example : 1 2 3 4 5 
+   ans     : 1 3 5
+2. given a head of an sorted linked list, delete all the duplicates such that all the elements appears once 
+   return the linked list sorted as well
+3. Traversing a linked list in reversed order
+4. reversing a linked list
