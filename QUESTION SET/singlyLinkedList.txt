@@ -5,3 +5,6 @@
    return the linked list sorted as well
 3. Traversing a linked list in reversed order
 4. reversing a linked list
+5. reverse the linked list kth time and return it 
+   example : 1 2 3 4 5 is k is 2
+             2 1 4 3 5

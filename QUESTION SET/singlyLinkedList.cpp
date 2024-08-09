@@ -43,8 +43,21 @@ void traversingReversedOrder(Node* head){
 }
 
 //revsersing a linked list
-void reversingLinkedList(Node* head){
-    if(head==NULL) return;
+Node* reversingLinkedList(Node* head){
+    Node* current = head;
+    Node* previous = NULL;
+    while(current!=NULL){
+        Node* next = current->pointer;
+        current->pointer = previous;
+        previous = current;
+        current = next;
+    }
+    Node* node = previous;
+    return node;
+}
+
+Node* reversedLinkedListKthTime(Node* head, int steps){
+    
 }
 
 //insert element at the tail
@@ -79,7 +92,7 @@ int main(){
     push_back(userLinkedList,5);
     push_back(userLinkedList,5);
     push_back(userLinkedList,5);
-    traversingReversedOrder(userLinkedList);
-    // print(userLinkedList);
+    Node* reversedUserLinkedList = reversingLinkedList(userLinkedList); // too much important
+    print(reversedUserLinkedList);
     return 0;
 }
